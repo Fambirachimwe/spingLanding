@@ -22,7 +22,7 @@ const SectionContainer = ({ position, image, title, subtitle, description, url }
 
                 {/* explore buttone */}
 
-                <Link className='flex justify-center' to={url}>
+                <Link className='flex justify-center md:justify-start' to={url}>
                     <div className='my-5  flex gap-3  items-center'>
                         <p className='text-blue-500 font-semibold text-lg'>Explore Product</p>
                         <MoveRight className='text-blue-500' />
